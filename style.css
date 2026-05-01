@@ -82,7 +82,7 @@ img {
 
 /* ===== Header & Glassmorphism Nav ===== */
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -99,7 +99,7 @@ nav {
   align-items: center;
   padding: 20px 5%;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 10px;
 }
 
 .logo {
