@@ -150,7 +150,7 @@
                         </label>
 
                         <input
-                            type="tel"
+                            type="number"
                             id="phone"
                             name="phone"
                             placeholder="Enter your phone number"
