@@ -490,7 +490,6 @@
     <!-- Main JS -->
     <script src="script.js"></script>
 
-    <!-- Smooth Scroll -->
 
 </body>
 </html>
