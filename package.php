@@ -484,7 +484,14 @@
     <!-- Main JS -->
     <script src="script.js"></script>
 
- 
+    <!-- AOS Init -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 120
+        });
+    </script>
 
     <!-- Smooth Scroll -->
     <script>
