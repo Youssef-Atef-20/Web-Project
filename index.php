@@ -63,7 +63,7 @@
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="packages.php">Package</a>
-            <a href="contact.php">Book</a>
+            <a href="book.php">Book</a>
         </nav>
 
         <button
