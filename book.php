@@ -130,7 +130,6 @@
             
         </div>
     </div>
-    <div class="credit">created by <span>PRAVEEN H</span> | REFERENCE : <a href="https://youtu.be/34MBVXsDOtA?si=gyYSLsTe_V7egxks">Mr.Web Designer Youtube Channel</a></div>
 </section>
 <!--footer ends-->
 
@@ -138,8 +137,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!--safty-->
-<h1>safty</h1>
 <script src="script.js"></script>
 </body>
 </html>
