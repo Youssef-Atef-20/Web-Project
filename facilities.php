@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Ocean Pearl Hotel - Our story and values.">
-    <title>Ocean Pearl Hotel | About Us</title>
+    <meta name="description" content="Facilities at Ocean Pearl Hotel - Pool, Spa, Dining.">
+    <title>Ocean Pearl Hotel | Facilities</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -18,7 +18,7 @@
             </div>
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="about.php" class="active">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
                 <li>
                     <a href="rooms.php">Rooms <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
@@ -27,7 +27,7 @@
                         <li><a href="rooms.php#penthouse">Penthouse</a></li>
                     </ul>
                 </li>
-                <li><a href="facilities.php">Facilities</a></li>
+                <li><a href="facilities.php" class="active">Facilities</a></li>
                 <li><a href="contact.php">Contact / Book</a></li>
             </ul>
         </nav>
@@ -37,30 +37,43 @@
     </header>
 
     <main>
-        <!-- Hero Title Banner -->
-        <section class="hero" style="height: 40vh; background: linear-gradient(rgba(11, 43, 64, 0.8), rgba(11, 43, 64, 0.8)), url('https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;">
+        <section class="hero" style="height: 40vh; background: linear-gradient(rgba(11, 43, 64, 0.8), rgba(11, 43, 64, 0.8)), url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;">
             <div class="hero-content">
-                <h1 style="font-size: 3rem;">About Us</h1>
-                <p>Our story of luxury and hospitality</p>
+                <h1 style="font-size: 3rem;">Our Facilities</h1>
+                <p>Everything you need for a perfect stay</p>
             </div>
         </section>
 
         <section class="container">
-            <div class="grid-2">
-                <div data-aos="fade-right">
-                    <img src="https://images.unsplash.com/photo-1551882547-ff40c0d12258?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hotel Interior" style="border-radius: 10px;">
+            <div class="grid-3">
+                <div class="card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Spa and Wellness">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Serenity Spa</h3>
+                        <p>Relax and rejuvenate in our award-winning spa. We offer a wide range of massages, facials, and wellness treatments designed to melt away stress.</p>
+                    </div>
                 </div>
-                <div data-aos="fade-left">
-                    <h2 class="section-title" style="text-align: left;">Our Story</h2>
-                    <p>Founded in 1998, Ocean Pearl Hotel has been a beacon of luxury and relaxation for over two decades. What started as a small boutique hotel has grown into a world-class resort.</p>
-                    <p>We pride ourselves on providing an experience that goes beyond simply a place to stay. We offer a haven where guests can disconnect from the world and reconnect with themselves.</p>
-                    
-                    <h3 style="margin-top: 30px;">Our Core Values</h3>
-                    <ul style="list-style-type: none; padding: 0;">
-                        <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--secondary-color); margin-right: 10px;"></i> Exceptional Guest Service</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--secondary-color); margin-right: 10px;"></i> Sustainable Practices</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--secondary-color); margin-right: 10px;"></i> Uncompromising Quality</li>
-                    </ul>
+
+                <div class="card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Restaurant">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">The Pearl Restaurant</h3>
+                        <p>Enjoy exquisite dining with breathtaking ocean views. Our Michelin-star chefs prepare culinary masterpieces using the freshest local ingredients.</p>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Infinity Pool">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Infinity Pool</h3>
+                        <p>Take a dip in our signature infinity pool that blends seamlessly with the ocean horizon. Private cabanas and poolside service available.</p>
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,65 +1,24 @@
-let menu = document.querySelector('#menu-btn');
-let navbar = document.querySelector('.header .navbar');
+// Initialize AOS Animation Library
+document.addEventListener("DOMContentLoaded", function() {
+    AOS.init({
+        duration: 800, // values from 0 to 3000, with step 50ms
+        easing: 'ease-in-out', // default easing for AOS animations
+        once: true, // whether animation should happen only once - while scrolling down
+        offset: 100 // offset (in px) from the original trigger point
+    });
 
-menu.onclick = () =>{
-    menu.classList.toggle('fa-times');
-    navbar.classList.toggle('active');
-};
-
-window.onscroll = () =>{
-    menu.classList.remove('fa-times');
-    navbar.classList.remove('active');
-};
-
-var swiper = new Swiper(".home-slider",{
-    loop:true,
-    navigation: {
-        nextEl:".swiper-button-next",
-        prevEl:".swiper-button-prev",
-    },
+    // JavaScript with a function: Display current date in the header
+    displayCurrentDate();
 });
 
-var swiper = new Swiper(".reviews-slider",{
-    loop:true,
-    spaceBetween: 20,
-    autoHeight:true,
-    grabCursor:true,
-    breakpoints: {
-        640: {
-          slidesPerView: 1,
-
-        },
-        768: {
-          slidesPerView: 2,
-        },
-        1024: {
-          slidesPerView: 3,
-        },
-      },
-});
-
-let loadMoreBtn = document.querySelector('.packages .load-more .btn');
-let currentItem = 3;
-
-// Hide all boxes except the first three
-let boxes = [...document.querySelectorAll('.packages .box-container .box')];
-boxes.forEach((box, index) => {
-    if(index >= currentItem) {
-        box.style.display = 'none';
+function displayCurrentDate() {
+    const dateElement = document.getElementById('current-date-display');
+    
+    if (dateElement) {
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const today = new Date();
+        const formattedDate = today.toLocaleDateString('en-US', options);
+        
+        dateElement.innerHTML = `<i class="far fa-calendar-alt"></i> ${formattedDate}`;
     }
-});
-
-loadMoreBtn.onclick = () =>{
-    console.log('Load more button clicked');
-    let boxes = [...document.querySelectorAll('.packages .box-container .box')];
-    for(let i = currentItem; i < currentItem + 3; i++){
-        if(boxes[i]) {
-            boxes[i].style.display = 'inline-block';
-            console.log(`Displaying box ${i}`);
-        }
-    }
-    currentItem += 3;
-    if(currentItem >= boxes.length){
-        loadMoreBtn.style.display = 'none';
-    }
-};
+}
