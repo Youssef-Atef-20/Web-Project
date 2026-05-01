@@ -2,229 +2,495 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>packages</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="style.css">
+    <meta 
+        name="viewport" 
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <!-- SEO -->
+    <meta 
+        name="description" 
+        content="Explore top travel destinations and holiday packages with Praveen's Travel Agency."
+    >
+
+    <title>Travel Packages | Praveen's Travel Agency</title>
+
+    <!-- Swiper CSS -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    >
+
+    <!-- Font Awesome -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!--header-->
-    <section class="header">
-        <a href="index.php" class="logo">praveen's travel agency</a>
-        <nav class="navbar">
-            <a href="index.php">Home</a>
-            <a href="about.php">about</a>
-            <a href="package.php">package</a>
-            <a href="book.php">book</a>
+    <!-- Header -->
+    <header class="header">
+
+        <a 
+            href="index.php" 
+            class="logo"
+            aria-label="Praveen's Travel Agency Home"
+        >
+            Praveen's Travel Agency
+        </a>
+
+        <nav 
+            class="navbar" 
+            aria-label="Main Navigation"
+        >
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#packages" aria-current="page">Package</a>
+            <a href="#contact">Book</a>
         </nav>
 
-        <div id="menu-btn" class="fas fa-bars"></div>
-    </section>
-<!--header ends-->
-<!--package -->
+        <button
+            id="menu-btn"
+            class="fas fa-bars"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+        </button>
 
-<section class="packages">
-    <h1 class="heading-title">top destination</h1>
-    <div class="box-container">
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-1.webp" alt="img-1">
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Packages -->
+        <section 
+            id="packages"
+            class="packages"
+            aria-labelledby="packages-heading"
+        >
+
+            <h1 
+                id="packages-heading"
+                class="heading-title"
+            >
+                Top Destinations
+            </h1>
+
+            <div class="box-container">
+
+                <!-- Card -->
+                <article class="box">
+
+                    <div class="image">
+                        <img 
+                            src="images2/img-1.webp" 
+                            alt="Adventure travel destination"
+                        >
+                    </div>
+
+                    <div class="content">
+
+                        <h2>Adventure</h2>
+
+                        <p>
+                            Experience thrilling adventures across breathtaking landscapes and create unforgettable memories with guided travel experiences.
+                        </p>
+
+                        <a href="book.php" class="btn">
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Card -->
+                <article class="box">
+
+                    <div class="image">
+                        <img 
+                            src="images2/img-2.webp" 
+                            alt="Nature travel destination"
+                        >
+                    </div>
+
+                    <div class="content">
+
+                        <h2>Nature</h2>
+
+                        <p>
+                            Discover peaceful natural destinations filled with scenic mountains forests and crystal clear waters.
+                        </p>
+
+                        <a href="book.php" class="btn">
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Card -->
+                <article class="box">
+
+                    <div class="image">
+                        <img 
+                            src="images2/img-3.webp" 
+                            alt="Heritage travel destination"
+                        >
+                    </div>
+
+                    <div class="content">
+
+                        <h2>Heritage</h2>
+
+                        <p>
+                            Explore historical landmarks and cultural heritage sites that tell stories from centuries ago.
+                        </p>
+
+                        <a href="book.php" class="btn">
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Card -->
+                <article class="box">
+
+                    <div class="image">
+                        <img 
+                            src="images2/img-4.webp" 
+                            alt="Adventure activities destination"
+                        >
+                    </div>
+
+                    <div class="content">
+
+                        <h2>Adventure</h2>
+
+                        <p>
+                            Enjoy exciting outdoor activities perfect for travelers seeking adrenaline and unforgettable experiences.
+                        </p>
+
+                        <a href="book.php" class="btn">
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Card -->
+                <article class="box">
+
+                    <div class="image">
+                        <img 
+                            src="images2/img-5.webp" 
+                            alt="Luxury holiday destination"
+                        >
+                    </div>
+
+                    <div class="content">
+
+                        <h2>Holiday</h2>
+
+                        <p>
+                            Relax with luxury holiday packages designed for comfort entertainment and stress free travel.
+                        </p>
+
+                        <a href="book.php" class="btn">
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Card -->
+                <article class="box">
+
+                    <div class="image">
+                        <img 
+                            src="images2/img-6.webp" 
+                            alt="Romantic honeymoon destination"
+                        >
+                    </div>
+
+                    <div class="content">
+
+                        <h2>Honeymoon</h2>
+
+                        <p>
+                            Celebrate love with romantic honeymoon destinations featuring stunning views and premium resorts.
+                        </p>
+
+                        <a href="book.php" class="btn">
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Card -->
+                <article class="box">
+
+                    <div class="image">
+                        <img 
+                            src="images2/img-13.webp" 
+                            alt="Mountain trekking destination"
+                        >
+                    </div>
+
+                    <div class="content">
+
+                        <h2>Trekking</h2>
+
+                        <p>
+                            Challenge yourself with trekking journeys through beautiful trails and breathtaking mountain routes.
+                        </p>
+
+                        <a href="book.php" class="btn">
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Card -->
+                <article class="box">
+
+                    <div class="image">
+                        <img 
+                            src="images2/img-14.webp" 
+                            alt="Off road adventure destination"
+                        >
+                    </div>
+
+                    <div class="content">
+
+                        <h2>Off Road</h2>
+
+                        <p>
+                            Experience off road adventures across deserts and rugged landscapes with professional travel guides.
+                        </p>
+
+                        <a href="book.php" class="btn">
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
             </div>
-            <div class="content">
-                <h3>adventure</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
+
+            <!-- Load More -->
+            <div class="load-more">
+
+                <button 
+                    class="btn" 
+                    type="button"
+                >
+                    Load More
+                </button>
+
             </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer 
+        id="contact"
+        class="footer"
+    >
+
+        <div class="box-container">
+
+            <!-- Quick Links -->
+            <section 
+                class="box"
+                aria-labelledby="quick-links-heading"
+            >
+
+                <h2 id="quick-links-heading">
+                    Quick Links
+                </h2>
+
+                <nav aria-label="Footer Quick Links">
+
+                    <a href="#home">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Home
+                    </a>
+
+                    <a href="#about">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        About
+                    </a>
+
+                    <a href="#packages">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Package
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Book
+                    </a>
+
+                </nav>
+
+            </section>
+
+            <!-- Extra Links -->
+            <section 
+                class="box"
+                aria-labelledby="extra-links-heading"
+            >
+
+                <h2 id="extra-links-heading">
+                    Extra Links
+                </h2>
+
+                <nav aria-label="Extra Links">
+
+                    <a href="#">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Ask Questions
+                    </a>
+
+                    <a href="#">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        About Us
+                    </a>
+
+                    <a href="#">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Privacy Policy
+                    </a>
+
+                    <a href="#">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Terms of Use
+                    </a>
+
+                </nav>
+
+            </section>
+
+            <!-- Contact -->
+            <section 
+                class="box"
+                aria-labelledby="contact-heading"
+            >
+
+                <h2 id="contact-heading">
+                    Contact
+                </h2>
+
+                <address>
+
+                    <a href="tel:+918073516447">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        +91 8073516447
+                    </a>
+
+                    <a href="tel:+911234567890">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        +91 1234567890
+                    </a>
+
+                    <a href="mailto:praveenpuni80@gmail.com">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        praveenpuni80@gmail.com
+                    </a>
+
+                    <p>
+                        <i class="fas fa-map" aria-hidden="true"></i>
+                        Bengaluru India 400104
+                    </p>
+
+                </address>
+
+            </section>
+
+            <!-- Social -->
+            <section 
+                class="box"
+                aria-labelledby="social-heading"
+            >
+
+                <h2 id="social-heading">
+                    Follow Us
+                </h2>
+
+                <nav aria-label="Social Media Links">
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        Facebook
+                    </a>
+
+                    <a href="#" aria-label="Twitter">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        Twitter
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        Instagram
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        LinkedIn
+                    </a>
+
+                </nav>
+
+            </section>
+
         </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-2.webp" alt="img-2">
-            </div>
-            <div class="content">
-                <h3>Nature</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
+        <!-- Credit -->
+        <div class="credit">
+
+            <p>
+                Created by <span>PRAVEEN H</span> |
+                Reference:
+                <a
+                    href="https://youtu.be/34MBVXsDOtA?si=gyYSLsTe_V7egxks"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Mr Web Designer YouTube Channel
+                </a>
+            </p>
+
         </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-3.webp" alt="img-3">
-            </div>
-            <div class="content">
-                <h3>Heritage</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
+    </footer>
 
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-4.webp" alt="img-4">
-            </div>
-            <div class="content">
-                <h3>adventure</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-5.webp" alt="img-5">
-            </div>
-            <div class="content">
-                <h3>adventure</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
+    <!-- Main JS -->
+    <script src="script.js"></script>
 
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-6.webp" alt="img-6">
-            </div>
-            <div class="content">
-                <h3>Holidays</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
+    <!-- Smooth Scroll -->
 
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-7.webp" alt="img-7">
-            </div>
-            <div class="content">
-                <h3>Honeymoon</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-8.webp" alt="img-8">
-            </div>
-            <div class="content">
-                <h3>Honeymoon</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-9.webp" alt="img-9">
-            </div>
-            <div class="content">
-                <h3>Honeymoon</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-10.webp" alt="img-10">
-            </div>
-            <div class="content">
-                <h3>Heritage</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-11.webp" alt="img-11">
-            </div>
-            <div class="content">
-                <h3>Heritage</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-13.webp" alt="img-13">
-            </div>
-            <div class="content">
-                <h3>trekking</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-14.webp" alt="img-14">
-            </div>
-            <div class="content">
-                <h3>off road</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, magni!</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
-    </div>
-    <div class="load-more"><span class="btn">load more</span></div>
-</section>
-
-<!--packages ends-->
-
-
-<!--footer-->
-<section class="footer">
-    <div class="box-container">
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="index.php"><i class="fas fa-angle-right"></i>Home</a>
-            <a href="about.php"><i class="fas fa-angle-right"></i>about</a>
-            <a href="package.php"><i class="fas fa-angle-right"></i>package</a>
-            <a href="book.php"><i class="fas fa-angle-right"></i>book</a>
-        </div>
-        
-        
-
-        <div class="box">
-            <h3>extra links</h3>
-            <a href="#"><i class="fas fa-angle-right"></i>ask questions</a>
-            <a href="#"><i class="fas fa-angle-right"></i>about us</a>
-            <a href="#"><i class="fas fa-angle-right"></i>privacy policy</a>
-            <a href="#"><i class="fas fa-angle-right"></i>terms of use </a>
-        </div>
-
-        <div class="box">
-            <h3>contact</h3>
-            <a href="#"><i class="fas fa-phone"></i>+91 8073516447</a>
-            <a href="#"><i class="fas fa-phone"></i>+91 1234567890</a>
-            <a href="#"><i class="fas fa-envelope"></i>praveenpuni80@gmail.com</a>
-            <a href="#"><i class="fas fa-map"></i>bengaluru, india - 400104</a>
-        </div>
-
-        <div class="box">
-            <h3>follow us </h3>
-            <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
-            <a href="#"><i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"><i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"><i class="fab fa-linkedin"></i> Linkedin </a>
-            
-        </div>
-    </div>
-    <div class="credit">created by <span>PRAVEEN H</span> | REFERENCE : <a href="https://youtu.be/34MBVXsDOtA?si=gyYSLsTe_V7egxks">Mr.Web Designer Youtube Channel</a></div>
-</section>
-<!--footer ends-->
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-
-<script src="script.js"></script>
 </body>
 </html>

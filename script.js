@@ -63,3 +63,29 @@ loadMoreBtn.onclick = () =>{
         loadMoreBtn.style.display = 'none';
     }
 };
+
+
+// for smooth scrooling and animation aos (animation on scroll)
+
+
+
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+
+            anchor.addEventListener('click', function (e) {
+
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+
+                if (!targetSection) return;
+
+                e.preventDefault();
+
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+
+            });
+
+        });
+    
