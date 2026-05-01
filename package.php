@@ -58,10 +58,10 @@
             class="navbar" 
             aria-label="Main Navigation"
         >
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#packages" aria-current="page">Package</a>
-            <a href="#contact">Book</a>
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="package.php" aria-current="page">Package</a>
+            <a href="book.php">Book</a>
         </nav>
 
         <button
