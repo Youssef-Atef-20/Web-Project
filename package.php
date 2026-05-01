@@ -22,6 +22,12 @@
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     >
 
+    <!-- AOS CSS -->
+    <link 
+        rel="stylesheet" 
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    >
+
     <!-- Font Awesome -->
     <link 
         rel="stylesheet" 
@@ -35,7 +41,10 @@
 <body>
 
     <!-- Header -->
-    <header class="header">
+    <header 
+        class="header"
+        data-aos="fade-down"
+    >
 
         <a 
             href="index.php" 
@@ -79,6 +88,7 @@
             <h1 
                 id="packages-heading"
                 class="heading-title"
+                data-aos="fade-up"
             >
                 Top Destinations
             </h1>
@@ -86,7 +96,11 @@
             <div class="box-container">
 
                 <!-- Card -->
-                <article class="box">
+                <article 
+                    class="box"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="100"
+                >
 
                     <div class="image">
                         <img 
@@ -112,7 +126,11 @@
                 </article>
 
                 <!-- Card -->
-                <article class="box">
+                <article 
+                    class="box"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="200"
+                >
 
                     <div class="image">
                         <img 
@@ -138,7 +156,11 @@
                 </article>
 
                 <!-- Card -->
-                <article class="box">
+                <article 
+                    class="box"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="300"
+                >
 
                     <div class="image">
                         <img 
@@ -164,7 +186,10 @@
                 </article>
 
                 <!-- Card -->
-                <article class="box">
+                <article 
+                    class="box"
+                    data-aos="fade-right"
+                >
 
                     <div class="image">
                         <img 
@@ -190,7 +215,10 @@
                 </article>
 
                 <!-- Card -->
-                <article class="box">
+                <article 
+                    class="box"
+                    data-aos="fade-left"
+                >
 
                     <div class="image">
                         <img 
@@ -216,7 +244,10 @@
                 </article>
 
                 <!-- Card -->
-                <article class="box">
+                <article 
+                    class="box"
+                    data-aos="flip-left"
+                >
 
                     <div class="image">
                         <img 
@@ -242,7 +273,10 @@
                 </article>
 
                 <!-- Card -->
-                <article class="box">
+                <article 
+                    class="box"
+                    data-aos="fade-up-right"
+                >
 
                     <div class="image">
                         <img 
@@ -268,7 +302,10 @@
                 </article>
 
                 <!-- Card -->
-                <article class="box">
+                <article 
+                    class="box"
+                    data-aos="fade-up-left"
+                >
 
                     <div class="image">
                         <img 
@@ -296,7 +333,10 @@
             </div>
 
             <!-- Load More -->
-            <div class="load-more">
+            <div 
+                class="load-more"
+                data-aos="fade-up"
+            >
 
                 <button 
                     class="btn" 
@@ -315,6 +355,7 @@
     <footer 
         id="contact"
         class="footer"
+        data-aos="fade-up"
     >
 
         <div class="box-container">
@@ -323,6 +364,7 @@
             <section 
                 class="box"
                 aria-labelledby="quick-links-heading"
+                data-aos="fade-right"
             >
 
                 <h2 id="quick-links-heading">
@@ -359,6 +401,7 @@
             <section 
                 class="box"
                 aria-labelledby="extra-links-heading"
+                data-aos="fade-up"
             >
 
                 <h2 id="extra-links-heading">
@@ -395,6 +438,7 @@
             <section 
                 class="box"
                 aria-labelledby="contact-heading"
+                data-aos="fade-left"
             >
 
                 <h2 id="contact-heading">
@@ -427,59 +471,6 @@
 
             </section>
 
-            <!-- Social -->
-            <section 
-                class="box"
-                aria-labelledby="social-heading"
-            >
-
-                <h2 id="social-heading">
-                    Follow Us
-                </h2>
-
-                <nav aria-label="Social Media Links">
-
-                    <a href="#" aria-label="Facebook">
-                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                        Facebook
-                    </a>
-
-                    <a href="#" aria-label="Twitter">
-                        <i class="fab fa-twitter" aria-hidden="true"></i>
-                        Twitter
-                    </a>
-
-                    <a href="#" aria-label="Instagram">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        Instagram
-                    </a>
-
-                    <a href="#" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                        LinkedIn
-                    </a>
-
-                </nav>
-
-            </section>
-
-        </div>
-
-        <!-- Credit -->
-        <div class="credit">
-
-            <p>
-                Created by <span>PRAVEEN H</span> |
-                Reference:
-                <a
-                    href="https://youtu.be/34MBVXsDOtA?si=gyYSLsTe_V7egxks"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Mr Web Designer YouTube Channel
-                </a>
-            </p>
-
         </div>
 
     </footer>
@@ -487,9 +478,36 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
     <!-- Main JS -->
     <script src="script.js"></script>
 
+ 
+
+    <!-- Smooth Scroll -->
+    <script>
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+
+            anchor.addEventListener('click', function (e) {
+
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+
+                if (!targetSection) return;
+
+                e.preventDefault();
+
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+
+            });
+
+        });
+    </script>
 
 </body>
 </html>

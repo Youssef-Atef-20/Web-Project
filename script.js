@@ -1,41 +1,41 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 
-menu.onclick = () =>{
+menu.onclick = () => {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 };
 
-window.onscroll = () =>{
+window.onscroll = () => {
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 };
 
-var swiper = new Swiper(".home-slider",{
-    loop:true,
+var swiper = new Swiper(".home-slider", {
+    loop: true,
     navigation: {
-        nextEl:".swiper-button-next",
-        prevEl:".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
 
-var swiper = new Swiper(".reviews-slider",{
-    loop:true,
+var swiper = new Swiper(".reviews-slider", {
+    loop: true,
     spaceBetween: 20,
-    autoHeight:true,
-    grabCursor:true,
+    autoHeight: true,
+    grabCursor: true,
     breakpoints: {
         640: {
-          slidesPerView: 1,
+            slidesPerView: 1,
 
         },
         768: {
-          slidesPerView: 2,
+            slidesPerView: 2,
         },
         1024: {
-          slidesPerView: 3,
+            slidesPerView: 3,
         },
-      },
+    },
 });
 
 let loadMoreBtn = document.querySelector('.packages .load-more .btn');
@@ -44,22 +44,22 @@ let currentItem = 3;
 // Hide all boxes except the first three
 let boxes = [...document.querySelectorAll('.packages .box-container .box')];
 boxes.forEach((box, index) => {
-    if(index >= currentItem) {
+    if (index >= currentItem) {
         box.style.display = 'none';
     }
 });
 
-loadMoreBtn.onclick = () =>{
+loadMoreBtn.onclick = () => {
     console.log('Load more button clicked');
     let boxes = [...document.querySelectorAll('.packages .box-container .box')];
-    for(let i = currentItem; i < currentItem + 3; i++){
-        if(boxes[i]) {
+    for (let i = currentItem; i < currentItem + 3; i++) {
+        if (boxes[i]) {
             boxes[i].style.display = 'inline-block';
             console.log(`Displaying box ${i}`);
         }
     }
     currentItem += 3;
-    if(currentItem >= boxes.length){
+    if (currentItem >= boxes.length) {
         loadMoreBtn.style.display = 'none';
     }
 };
@@ -69,23 +69,33 @@ loadMoreBtn.onclick = () =>{
 
 
 
-        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
 
-            anchor.addEventListener('click', function (e) {
+    anchor.addEventListener('click', function (e) {
 
-                const targetId = this.getAttribute('href');
-                const targetSection = document.querySelector(targetId);
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
 
-                if (!targetSection) return;
+        if (!targetSection) return;
 
-                e.preventDefault();
+        e.preventDefault();
 
-                targetSection.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-
-            });
-
+        targetSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
         });
-    
+
+    });
+
+});
+
+
+
+
+//    AOS Init 
+
+AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 120
+});
