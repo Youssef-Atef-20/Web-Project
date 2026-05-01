@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header data-aos="fade-down" data-aos-duration="1000">
+        <div class="date-container" id="current-date-display"></div>
         <nav aria-label="Main Navigation">
             <div class="logo">
                 <i class="fas fa-water"></i>
@@ -31,35 +32,32 @@
                 <li><a href="contact.php">Contact / Book</a></li>
             </ul>
         </nav>
-        <div style="text-align: center; padding-bottom: 10px;">
-            <div id="current-date-display"></div>
-        </div>
     </header>
 
     <main>
         <!-- Hero Title Banner -->
-        <section class="hero" style="height: 40vh; background: linear-gradient(rgba(11, 43, 64, 0.8), rgba(11, 43, 64, 0.8)), url('https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;">
+        <section class="hero inner-hero" style="background: url('https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
             <div class="hero-content">
-                <h1 style="font-size: 3rem;">About Us</h1>
-                <p>Our story of luxury and hospitality</p>
+                <h1 data-aos="zoom-in" data-aos-duration="1200">About Us</h1>
+                <p data-aos="fade-up" data-aos-delay="300">Our story of luxury, passion, and unparalleled hospitality</p>
             </div>
         </section>
 
         <section class="container">
             <div class="grid-2">
-                <div data-aos="fade-right">
-                    <img src="https://images.unsplash.com/photo-1551882547-ff40c0d12258?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hotel Interior" style="border-radius: 10px;">
+                <div data-aos="fade-right" data-aos-duration="1200">
+                    <img src="https://images.unsplash.com/photo-1551882547-ff40c0d12258?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hotel Interior" style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
                 </div>
-                <div data-aos="fade-left">
-                    <h2 class="section-title" style="text-align: left;">Our Story</h2>
-                    <p>Founded in 1998, Ocean Pearl Hotel has been a beacon of luxury and relaxation for over two decades. What started as a small boutique hotel has grown into a world-class resort.</p>
-                    <p>We pride ourselves on providing an experience that goes beyond simply a place to stay. We offer a haven where guests can disconnect from the world and reconnect with themselves.</p>
+                <div data-aos="fade-left" data-aos-duration="1200">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 30px;">Our Heritage</h2>
+                    <p data-aos="fade-up" data-aos-delay="200">Founded in 1998, Ocean Pearl Hotel has been a beacon of luxury and relaxation for over two decades. What started as a small boutique hotel has blossomed into a world-class luxury resort, attracting guests from all over the globe.</p>
+                    <p data-aos="fade-up" data-aos-delay="300">We pride ourselves on providing an experience that goes beyond simply a place to stay. We offer a haven where guests can disconnect from the world, immerse themselves in luxury, and reconnect with nature.</p>
                     
-                    <h3 style="margin-top: 30px;">Our Core Values</h3>
+                    <h3 style="margin-top: 40px; color: var(--secondary);" data-aos="fade-up" data-aos-delay="400">Our Core Values</h3>
                     <ul style="list-style-type: none; padding: 0;">
-                        <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--secondary-color); margin-right: 10px;"></i> Exceptional Guest Service</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--secondary-color); margin-right: 10px;"></i> Sustainable Practices</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--secondary-color); margin-right: 10px;"></i> Uncompromising Quality</li>
+                        <li data-aos="fade-up" data-aos-delay="500" style="margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; gap: 15px;"><i class="fas fa-gem" style="color: var(--secondary); font-size: 1.3rem;"></i> Uncompromising Quality</li>
+                        <li data-aos="fade-up" data-aos-delay="600" style="margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; gap: 15px;"><i class="fas fa-leaf" style="color: var(--secondary); font-size: 1.3rem;"></i> Sustainable Practices</li>
+                        <li data-aos="fade-up" data-aos-delay="700" style="margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; gap: 15px;"><i class="fas fa-heart" style="color: var(--secondary); font-size: 1.3rem;"></i> Exceptional Guest Service</li>
                     </ul>
                 </div>
             </div>
@@ -68,14 +66,14 @@
 
     <footer>
         <div class="footer-content">
-            <div>
+            <div data-aos="fade-right">
                 <div class="footer-logo">
                     <i class="fas fa-water"></i> Ocean<span>Pearl</span>
                 </div>
-                <p>Experience the perfect blend of luxury and comfort at our beachfront hotel. Your unforgettable journey starts here.</p>
+                <p>Experience the perfect blend of luxury and comfort at our beachfront hotel. Your unforgettable journey into serenity and elegance starts right here.</p>
             </div>
-            <div>
-                <h4 style="color: white;">Quick Links</h4>
+            <div data-aos="fade-up" data-aos-delay="200">
+                <h4 style="font-size: 1.5rem;">Quick Links</h4>
                 <ul class="footer-links">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
@@ -84,16 +82,16 @@
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
-            <div>
-                <h4 style="color: white;">Contact Info</h4>
-                <ul class="footer-links">
-                    <li><i class="fas fa-map-marker-alt"></i> 123 Ocean Drive, Paradise City</li>
+            <div data-aos="fade-left" data-aos-delay="400">
+                <h4 style="font-size: 1.5rem;">Contact Info</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Ocean Drive, Paradise City, 90210</li>
                     <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
                     <li><i class="fas fa-envelope"></i> info@oceanpearl.com</li>
                 </ul>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div class="footer-bottom" data-aos="zoom-in" data-aos-offset="0">
             <p>&copy; 2026 Ocean Pearl Hotel. All Rights Reserved.</p>
         </div>
     </footer>
