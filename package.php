@@ -31,7 +31,7 @@
     <div class="box-container">
         <div class="box">
             <div class="image">
-                <img src="images/img-1.jpeg" alt="">
+                <img src="images2/img-1.webp" alt="img-1">
             </div>
             <div class="content">
                 <h3>adventure</h3>
@@ -42,7 +42,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-2.jpeg" alt="">
+                <img src="images2/img-2.webp" alt="img-2">
             </div>
             <div class="content">
                 <h3>Nature</h3>
@@ -53,7 +53,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-3.jpeg" alt="">
+                <img src="images2/img-3.webp" alt="img-3">
             </div>
             <div class="content">
                 <h3>Heritage</h3>
@@ -64,7 +64,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-4.jpeg" alt="">
+                <img src="images2/img-4.webp" alt="img-4">
             </div>
             <div class="content">
                 <h3>adventure</h3>
@@ -75,7 +75,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-5.jpeg" alt="">
+                <img src="images2/img-5.webp" alt="img-5">
             </div>
             <div class="content">
                 <h3>adventure</h3>
@@ -86,7 +86,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-6.jpeg" alt="">
+                <img src="images2/img-6.webp" alt="img-6">
             </div>
             <div class="content">
                 <h3>Holidays</h3>
@@ -97,7 +97,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-7.jpeg" alt="">
+                <img src="images2/img-7.webp" alt="img-7">
             </div>
             <div class="content">
                 <h3>Honeymoon</h3>
@@ -108,7 +108,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-8.jpeg" alt="">
+                <img src="images2/img-8.webp" alt="img-8">
             </div>
             <div class="content">
                 <h3>Honeymoon</h3>
@@ -119,7 +119,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-9.jpeg" alt="">
+                <img src="images2/img-9.webp" alt="img-9">
             </div>
             <div class="content">
                 <h3>Honeymoon</h3>
@@ -130,7 +130,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-10.jpeg" alt="">
+                <img src="images2/img-10.webp" alt="img-10">
             </div>
             <div class="content">
                 <h3>Heritage</h3>
@@ -141,7 +141,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-11.jpeg" alt="">
+                <img src="images2/img-11.webp" alt="img-11">
             </div>
             <div class="content">
                 <h3>Heritage</h3>
@@ -152,7 +152,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-13.jpeg" alt="">
+                <img src="images2/img-13.webp" alt="img-13">
             </div>
             <div class="content">
                 <h3>trekking</h3>
@@ -163,7 +163,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-14.jpeg" alt="">
+                <img src="images2/img-14.webp" alt="img-14">
             </div>
             <div class="content">
                 <h3>off road</h3>

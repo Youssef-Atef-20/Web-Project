@@ -29,7 +29,7 @@
 <!--about section-->
 <section class="about">
     <div class="image">
-        <img src="images/about-img.jpg" alt="">
+        <img src="images2/about-img.webp" alt="about-img">
     </div>
     <div class="content">
         <h3 >why choose us</h3>
@@ -64,10 +64,6 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident architecto quidem ut enim fugit saepe nesciunt facere, doloremque non, deserunt, vero magnam. Quasi, facilis voluptatem?</p>
-                <h3>Prajwal K L</h3>
-                <span>traveler</span>
-                <img src="images/prajwal.jpg" alt="">
             </div>
             <div class="swiper-slide slide">
                 <div class="stars">
@@ -77,10 +73,6 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quaerat recusandae, deleniti, corporis error assumenda ullam beatae quod quibusdam dolor unde tenetur odit sint repellendus?</p>
-                <h3>Shanmukha Prajwal G R</h3>
-                <span>traveler</span>
-                <img src="images/shanmukha.jpg" alt="">
             </div>
             <div class="swiper-slide slide">
                 <div class="stars">
@@ -89,10 +81,6 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, consectetur, quaerat quidem dolorem libero quae dolor neque earum dolores laudantium doloribus dolore odio ut eaque.</p>
-                <h3>Rajath O S</h3>
-                <span>traveler</span>
-                <img src="images/rajath.jpg" alt="">
             </div>
             <div class="swiper-slide slide">
                 <div class="stars">
@@ -102,10 +90,6 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia sequi nobis consequuntur eveniet qui doloribus maiores aut aperiam obcaecati. Quasi odio provident ex eos sunt!</p>
-                <h3>Prajwal K L</h3>
-                <span>traveler</span>
-                <img src="images/praveen.jpg" alt="">
             </div>
             <div class="swiper-slide slide">
                 <div class="stars">
@@ -115,10 +99,6 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores fugit esse, dolor veniam aliquam suscipit soluta aspernatur minima magnam repudiandae quibusdam porro! Ea, a.</p>
-                <h3>Prajwal K L</h3>
-                <span>traveler</span>
-                <img src="images/prajwal.jpg" alt="">
             </div>
             <div class="swiper-slide slide">
                 <div class="stars">
@@ -128,10 +108,6 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, a quos, enim similique, debitis aliquam provident totam nisi sit adipisci harum? Libero perferendis nulla minus.</p>
-                <h3>Prajwal K L</h3>
-                <span>traveler</span>
-                <img src="images/prajwal.jpg" alt="">
             </div>
         </div>
     </div>

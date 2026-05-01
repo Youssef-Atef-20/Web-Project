@@ -27,7 +27,7 @@
 <section class="home">
     <div class="swiper home-slider">
         <div class="swiper-wrapper">
-            <div class="swiper-slide slide" style="background:url(images/homeslide2.jpeg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images2/homeslide2.webp) no-repeat">
                 <div class="content">
                     <span>explore, discover, travel</span>
                     <h3>travel around the world</h3>
@@ -35,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide slide" style="background:url(images/homeslide6.jpg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images2/homeslide6.webp) no-repeat">
                 <div class="content">
                     <span>explore, discover, travel</span>
                     <h3>discover the new places</h3>
@@ -44,7 +44,7 @@
             </div>
 
 
-            <div class="swiper-slide slide" style="background:url(images/homeslide5.jpeg) no-repeat">
+            <div class="swiper-slide slide" style="background:url(images2/homeslide5.webp) no-repeat">
                 <div class="content">
                     <span>explore, discover, travel</span>
                     <h3>make your tour worthwhile</h3>
@@ -64,32 +64,32 @@
     <h1 class="heading-title">Our services</h1>
     <div class="box-container">
         <div class="box">
-            <img src="images/adventure.png" alt="">
+            <img src="images2/adventure.webp" alt="adventure">
             <h3>Adventure</h3>
         </div>
 
         <div class="box">
-            <img src="images/tour guide.png" alt="">
+            <img src="images2/tour guide.webp" alt="tour guide">
             <h3>Tour Guide</h3>
         </div>
 
         <div class="box">
-            <img src="images/treeking.png" alt="">
+            <img src="images2/treeking.webp" alt="treeking">
             <h3>Trekking</h3>
         </div>
 
         <div class="box">
-            <img src="images/campfire.png" alt="">
+            <img src="images2/campfire.webp" alt="campfire">
             <h3>campfire</h3>
         </div>
 
         <div class="box">
-            <img src="images/offload.png" alt="">
+            <img src="images2/offload.webp" alt="offload">
             <h3>off road</h3>
         </div>
 
         <div class="box">
-            <img src="images/camping.png" alt="">
+            <img src="images2/camping.webp" alt="camping">
             <h3>Camping</h3>
         </div>
     </div>
@@ -100,7 +100,7 @@
 <!-- home about-->
 <section class="home-about">
     <div class="image">
-        <img src="images/about-img.jpg"  alt="">
+        <img src="images2/about-img.webp"  alt="about-img">
     </div>
 
     <div class="content">
@@ -119,7 +119,7 @@
     <div class="box-container">
         <div class="box">
             <div class="image">
-                <img src="images/img-1.jpeg"  alt="">
+                <img src="images2/img-1.webp"  alt="img-1">
             </div>
             <div class="content">
                 <h3>adventure</h3>
@@ -130,7 +130,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-2.jpeg"  alt="">
+                <img src="images2/img-2.webp"  alt="img-2">
             </div>
             <div class="content">
                 <h3>nature</h3>
@@ -141,7 +141,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/img-3.jpeg"  alt="">
+                <img src="images2/img-3.webp"  alt="img">
             </div>
             <div class="content">
                 <h3>historical</h3>
