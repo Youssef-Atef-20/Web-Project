@@ -1,4 +1,4 @@
-name: 🚀 Deploy to phpfirst.infinityfreeapp.com
+name: 🚀 Deploy to allway.kesug.com
 
 on:
   workflow_dispatch: # Uncomment below to deploy on push instead
@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    name: 🎉 Deploy to phpfirst.infinityfreeapp.com
+    name: 🎉 Deploy to allway.kesug.com
     runs-on: ubuntu-latest
 
     steps:
@@ -21,7 +21,7 @@ jobs:
           server: ftpupload.net # Change if using another host
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /phpfirst.66ghz.com/htdocs/ # Replace with your correct path
+          server-dir: /allway.kesug.com/htdocs/ # Replace with your correct path
           retries: 3
           retryDelay: 10
 
