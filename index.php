@@ -1,215 +1,757 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <!-- SEO -->
+    <meta
+        name="description"
+        content="Discover amazing travel destinations adventure tours and premium holiday packages with Praveen's Travel Agency."
+    >
+
+    <title>Home | Praveen's Travel Agency</title>
+
+    <!-- Swiper CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    >
+
+    <!-- AOS CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-<!--header -->
-    <section class="header">
-        <a href="home.php" class="logo">praveen's travel agency</a>
-        <nav class="navbar">
-            <a href="home.php">Home</a>
-            <a href="about.php">about</a>
-            <a href="package.php">package</a>
-            <a href="book.php">book</a>
+
+    <!-- Header -->
+    <header
+        class="header"
+        data-aos="fade-down"
+    >
+
+        <a
+            href="home.php"
+            class="logo"
+            aria-label="Praveen's Travel Agency Home"
+        >
+            Praveen's Travel Agency
+        </a>
+
+        <nav
+            class="navbar"
+            aria-label="Main Navigation"
+        >
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#packages">Package</a>
+            <a href="#contact">Book</a>
         </nav>
 
-        <div id="menu-btn" class="fas fa-bars"></div>
-    </section>
-<!--end of header -->
-<!-- home sectiomn-->
-<section class="home">
-    <div class="swiper home-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide slide" style="background:url(images2/homeslide2.webp) no-repeat">
-                <div class="content">
-                    <span>explore, discover, travel</span>
-                    <h3>travel around the world</h3>
-                    <a href="package.php"class="btn">discover more</a>
+        <button
+            id="menu-btn"
+            class="fas fa-bars"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+        </button>
+
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Home -->
+        <section
+            id="home"
+            class="home"
+            aria-label="Travel Highlights"
+        >
+
+            <div class="swiper home-slider">
+
+                <div class="swiper-wrapper">
+
+                    <!-- Slide -->
+                    <article
+                        class="swiper-slide slide"
+                        style="background:url(images2/homeslide2.webp) no-repeat"
+                    >
+
+                        <div
+                            class="content"
+                            data-aos="zoom-in"
+                        >
+
+                            <span>
+                                Explore Discover Travel
+                            </span>
+
+                            <h1>
+                                Travel Around The World
+                            </h1>
+
+                            <a
+                                href="package.php"
+                                class="btn"
+                            >
+                                Discover More
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Slide -->
+                    <article
+                        class="swiper-slide slide"
+                        style="background:url(images2/homeslide6.webp) no-repeat"
+                    >
+
+                        <div
+                            class="content"
+                            data-aos="zoom-in"
+                        >
+
+                            <span>
+                                Explore Discover Travel
+                            </span>
+
+                            <h2>
+                                Discover New Places
+                            </h2>
+
+                            <a
+                                href="package.php"
+                                class="btn"
+                            >
+                                Discover More
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Slide -->
+                    <article
+                        class="swiper-slide slide"
+                        style="background:url(images2/homeslide5.webp) no-repeat"
+                    >
+
+                        <div
+                            class="content"
+                            data-aos="zoom-in"
+                        >
+
+                            <span>
+                                Explore Discover Travel
+                            </span>
+
+                            <h2>
+                                Make Your Tour Worthwhile
+                            </h2>
+
+                            <a
+                                href="package.php"
+                                class="btn"
+                            >
+                                Discover More
+                            </a>
+
+                        </div>
+
+                    </article>
+
                 </div>
+
+                <div
+                    class="swiper-button-next"
+                    aria-label="Next Slide"
+                ></div>
+
+                <div
+                    class="swiper-button-prev"
+                    aria-label="Previous Slide"
+                ></div>
+
             </div>
 
-            <div class="swiper-slide slide" style="background:url(images2/homeslide6.webp) no-repeat">
-                <div class="content">
-                    <span>explore, discover, travel</span>
-                    <h3>discover the new places</h3>
-                    <a href="package.php"class="btn">discover more</a>
-                </div>
+        </section>
+
+        <!-- Services -->
+        <section
+            class="services"
+            aria-labelledby="services-heading"
+        >
+
+            <h2
+                id="services-heading"
+                class="heading-title"
+                data-aos="fade-up"
+            >
+                Our Services
+            </h2>
+
+            <div class="box-container">
+
+                <article
+                    class="box"
+                    data-aos="flip-left"
+                >
+
+                    <img
+                        src="images2/adventure.webp"
+                        alt="Adventure activities"
+                    >
+
+                    <h3>Adventure</h3>
+
+                </article>
+
+                <article
+                    class="box"
+                    data-aos="flip-left"
+                    data-aos-delay="100"
+                >
+
+                    <img
+                        src="images2/tour guide.webp"
+                        alt="Professional tour guide"
+                    >
+
+                    <h3>Tour Guide</h3>
+
+                </article>
+
+                <article
+                    class="box"
+                    data-aos="flip-left"
+                    data-aos-delay="200"
+                >
+
+                    <img
+                        src="images2/treeking.webp"
+                        alt="Mountain trekking"
+                    >
+
+                    <h3>Trekking</h3>
+
+                </article>
+
+                <article
+                    class="box"
+                    data-aos="flip-left"
+                    data-aos-delay="300"
+                >
+
+                    <img
+                        src="images2/campfire.webp"
+                        alt="Campfire activities"
+                    >
+
+                    <h3>Campfire</h3>
+
+                </article>
+
+                <article
+                    class="box"
+                    data-aos="flip-left"
+                    data-aos-delay="400"
+                >
+
+                    <img
+                        src="images2/offload.webp"
+                        alt="Off road adventure"
+                    >
+
+                    <h3>Off Road</h3>
+
+                </article>
+
+                <article
+                    class="box"
+                    data-aos="flip-left"
+                    data-aos-delay="500"
+                >
+
+                    <img
+                        src="images2/camping.webp"
+                        alt="Camping activities"
+                    >
+
+                    <h3>Camping</h3>
+
+                </article>
+
             </div>
 
+        </section>
 
-            <div class="swiper-slide slide" style="background:url(images2/homeslide5.webp) no-repeat">
-                <div class="content">
-                    <span>explore, discover, travel</span>
-                    <h3>make your tour worthwhile</h3>
-                    <a href="package.php"class="btn">discover more</a>
-                </div>
+        <!-- About -->
+        <section
+            id="about"
+            class="home-about"
+            aria-labelledby="about-heading"
+        >
+
+            <div
+                class="image"
+                data-aos="fade-right"
+            >
+
+                <img
+                    src="images2/about-img.webp"
+                    alt="Travel team planning a trip"
+                >
+
             </div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
-</section>
 
-<!-- home section end-->
+            <div
+                class="content"
+                data-aos="fade-left"
+            >
 
-<!--services -->
-<section class="services">
-    <h1 class="heading-title">Our services</h1>
-    <div class="box-container">
-        <div class="box">
-            <img src="images2/adventure.webp" alt="adventure">
-            <h3>Adventure</h3>
-        </div>
+                <h2 id="about-heading">
+                    About Us
+                </h2>
 
-        <div class="box">
-            <img src="images2/tour guide.webp" alt="tour guide">
-            <h3>Tour Guide</h3>
-        </div>
+                <p>
+                    We create unforgettable travel experiences with carefully designed tours exciting adventures and comfortable holiday packages for travelers around the world.
+                </p>
 
-        <div class="box">
-            <img src="images2/treeking.webp" alt="treeking">
-            <h3>Trekking</h3>
-        </div>
+                <a
+                    href="about.php"
+                    class="btn"
+                >
+                    Read More
+                </a>
 
-        <div class="box">
-            <img src="images2/campfire.webp" alt="campfire">
-            <h3>campfire</h3>
-        </div>
-
-        <div class="box">
-            <img src="images2/offload.webp" alt="offload">
-            <h3>off road</h3>
-        </div>
-
-        <div class="box">
-            <img src="images2/camping.webp" alt="camping">
-            <h3>Camping</h3>
-        </div>
-    </div>
-    
-</section>
-<!--services end -->
-
-<!-- home about-->
-<section class="home-about">
-    <div class="image">
-        <img src="images2/about-img.webp"  alt="about-img">
-    </div>
-
-    <div class="content">
-        <h3>about us</h3>
-        <p>Lorem dicta rem a placeat, perferendis, nobis eligendi officia. Quos architecto officiis nulla, repellat, atque cumque hic magnam, repellendus porro repudiandae quisquam ad rerum ipsam eius?</p>
-        <a href="about.php" class="btn">read more</a>
-    </div>
-</section>
-
-<!-- home about ends-->
-<!-- home packages -->
-
-<section class="home-packages">
-    <h1 class="heading-title">our packages</h1>
-
-    <div class="box-container">
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-1.webp"  alt="img-1">
             </div>
-            <div class="content">
-                <h3>adventure</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, minus.</p>
-                <a href="book.php" class="btn">book now</a>
+
+        </section>
+
+        <!-- Packages -->
+        <section
+            id="packages"
+            class="home-packages"
+            aria-labelledby="packages-heading"
+        >
+
+            <h2
+                id="packages-heading"
+                class="heading-title"
+                data-aos="fade-up"
+            >
+                Our Packages
+            </h2>
+
+            <div class="box-container">
+
+                <!-- Package -->
+                <article
+                    class="box"
+                    data-aos="zoom-in-up"
+                >
+
+                    <div class="image">
+
+                        <img
+                            src="images2/img-1.webp"
+                            alt="Adventure travel package"
+                        >
+
+                    </div>
+
+                    <div class="content">
+
+                        <h3>Adventure</h3>
+
+                        <p>
+                            Experience exciting outdoor activities and thrilling journeys across breathtaking destinations.
+                        </p>
+
+                        <a
+                            href="book.php"
+                            class="btn"
+                        >
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Package -->
+                <article
+                    class="box"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="150"
+                >
+
+                    <div class="image">
+
+                        <img
+                            src="images2/img-2.webp"
+                            alt="Nature holiday package"
+                        >
+
+                    </div>
+
+                    <div class="content">
+
+                        <h3>Nature</h3>
+
+                        <p>
+                            Discover peaceful destinations filled with mountains forests waterfalls and natural beauty.
+                        </p>
+
+                        <a
+                            href="book.php"
+                            class="btn"
+                        >
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <!-- Package -->
+                <article
+                    class="box"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="300"
+                >
+
+                    <div class="image">
+
+                        <img
+                            src="images2/img-3.webp"
+                            alt="Historical travel package"
+                        >
+
+                    </div>
+
+                    <div class="content">
+
+                        <h3>Historical</h3>
+
+                        <p>
+                            Explore ancient landmarks cultural attractions and famous heritage locations around the globe.
+                        </p>
+
+                        <a
+                            href="book.php"
+                            class="btn"
+                        >
+                            Book Now
+                        </a>
+
+                    </div>
+
+                </article>
+
             </div>
-        </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-2.webp"  alt="img-2">
+            <div
+                class="load-more"
+                data-aos="fade-up"
+            >
+
+                <a
+                    href="package.php"
+                    class="btn"
+                >
+                    Load More
+                </a>
+
             </div>
-            <div class="content">
-                <h3>nature</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, minus.</p>
-                <a href="book.php" class="btn">book now</a>
+
+        </section>
+
+        <!-- Offer -->
+        <section
+            class="home-offer"
+            aria-labelledby="offer-heading"
+        >
+
+            <div
+                class="content"
+                data-aos="zoom-in"
+            >
+
+                <h2 id="offer-heading">
+                    Up To 50% Off
+                </h2>
+
+                <p>
+                    Enjoy exclusive travel discounts on selected holiday packages and create unforgettable memories at amazing prices.
+                </p>
+
+                <a
+                    href="package.php"
+                    class="btn"
+                >
+                    Claim Offer
+                </a>
+
             </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer
+        id="contact"
+        class="footer"
+        data-aos="fade-up"
+    >
+
+        <div class="box-container">
+
+            <!-- Quick Links -->
+            <section
+                class="box"
+                aria-labelledby="quick-links-heading"
+            >
+
+                <h2 id="quick-links-heading">
+                    Quick Links
+                </h2>
+
+                <nav aria-label="Footer Navigation">
+
+                    <a href="#home">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Home
+                    </a>
+
+                    <a href="#about">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        About
+                    </a>
+
+                    <a href="#packages">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Package
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Book
+                    </a>
+
+                </nav>
+
+            </section>
+
+            <!-- Extra Links -->
+            <section
+                class="box"
+                aria-labelledby="extra-links-heading"
+            >
+
+                <h2 id="extra-links-heading">
+                    Extra Links
+                </h2>
+
+                <nav aria-label="Extra Links">
+
+                    <a href="#">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Ask Questions
+                    </a>
+
+                    <a href="#">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        About Us
+                    </a>
+
+                    <a href="#">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Privacy Policy
+                    </a>
+
+                    <a href="#">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        Terms Of Use
+                    </a>
+
+                </nav>
+
+            </section>
+
+            <!-- Contact -->
+            <section
+                class="box"
+                aria-labelledby="contact-heading"
+            >
+
+                <h2 id="contact-heading">
+                    Contact
+                </h2>
+
+                <address>
+
+                    <a href="tel:+918073516447">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        +91 8073516447
+                    </a>
+
+                    <a href="tel:+911234567890">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        +91 1234567890
+                    </a>
+
+                    <a href="mailto:praveenpuni80@gmail.com">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        praveenpuni80@gmail.com
+                    </a>
+
+                    <p>
+                        <i class="fas fa-map" aria-hidden="true"></i>
+                        Bengaluru India 400104
+                    </p>
+
+                </address>
+
+            </section>
+
+            <!-- Social -->
+            <section
+                class="box"
+                aria-labelledby="social-heading"
+            >
+
+                <h2 id="social-heading">
+                    Follow Us
+                </h2>
+
+                <nav aria-label="Social Media Links">
+
+                    <a
+                        href="#"
+                        aria-label="Facebook"
+                    >
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        Facebook
+                    </a>
+
+                    <a
+                        href="https://www.instagram.com/__praveen_0018?igsh=dnB6dWpkbGtmMDR2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram"
+                    >
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        Instagram
+                    </a>
+
+                    <a
+                        href="https://github.com/praveenh001"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub"
+                    >
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        GitHub
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/praveen-h-5b5ba125b"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                    >
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        LinkedIn
+                    </a>
+
+                </nav>
+
+            </section>
+
         </div>
 
-        <div class="box">
-            <div class="image">
-                <img src="images2/img-3.webp"  alt="img">
-            </div>
-            <div class="content">
-                <h3>historical</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, minus.</p>
-                <a href="book.php" class="btn">book now</a>
-            </div>
-        </div>
-    </div>
-    <div class="load-more"><a href="package.php" class="btn">load more</a></div>
-</section>
-<!-- home packages ends-->
+        <!-- Credit -->
+        <div class="credit">
 
-<!-- home offer -->
-<section class="home-offer">
-    <div class="content">
-        <h3>upto 50% off</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, nostrum! Dolorum quos provident molestias ea quis sapiente, explicabo hic veniam quod vitae quam illo distinctio.</p>
-        <a href="package.php" class="btn">claim offer</a>
-    </div>
-</section>
-<!-- home offer end-->
+            <p>
+                Created by <span>PRAVEEN H</span> |
+                Reference:
+                <a
+                    href="https://youtu.be/34MBVXsDOtA?si=gyYSLsTe_V7egxks"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Mr Web Designer YouTube Channel
+                </a>
+            </p>
 
-<!--footer -->
-<section class="footer">
-    <div class="box-container">
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="home.php"><i class="fas fa-angle-right"></i>Home</a>
-            <a href="about.php"><i class="fas fa-angle-right"></i>about</a>
-            <a href="package.php"><i class="fas fa-angle-right"></i>package</a>
-            <a href="book.php"><i class="fas fa-angle-right"></i>book</a>
-        </div>
-        
-        
-
-        <div class="box">
-            <h3>extra links</h3>
-            <a href="#"><i class="fas fa-angle-right"></i>ask questions</a>
-            <a href="#"><i class="fas fa-angle-right"></i>about us</a>
-            <a href="#"><i class="fas fa-angle-right"></i>privacy policy</a>
-            <a href="#"><i class="fas fa-angle-right"></i>terms of use </a>
         </div>
 
-        <div class="box">
-            <h3>contact</h3>
-            <a href="#"><i class="fas fa-phone"></i>+91 8073516447</a>
-            <a href="#"><i class="fas fa-phone"></i>+91 1234567890</a>
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBptLCggsMnbnbksWnWkTCNdHmlqSBBkgChvKhdFjbrNHflKlQBvVdvgqwSCCWMgGCmjZsx"><i class="fas fa-envelope"></i>praveenpuni80@gmail.com</a>
-            <a href="#"><i class="fas fa-map"></i>bengaluru, india - 400104</a>
-        </div>
+    </footer>
 
-        <div class="box">
-            <h3>follow us </h3>
-            <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
-            <a href="https://www.instagram.com/__praveen_0018?igsh=dnB6dWpkbGtmMDR2"><i class="fab fa-instagram"></i> instagram </a>
-            <a href="https://github.com/praveenh001"><i class="fab fa-github"></i> github </a>
-            <a href="https://www.linkedin.com/in/praveen-h-5b5ba125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i> Linkedin </a>
-            
-        </div>
-    </div>
-    <div class="credit">created by <span>PRAVEEN H</span> | REFERENCE : <a href="https://youtu.be/34MBVXsDOtA?si=gyYSLsTe_V7egxks">Mr.Web Designer Youtube Channel</a></div>
-</section>
-<!--end footer -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="script.js"></script>
 
+    <!-- AOS Init -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 120
+        });
+    </script>
 
-<script src="script.js"></script>
+    <!-- Smooth Scroll -->
+    <script>
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+
+            anchor.addEventListener('click', function (e) {
+
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+
+                if (!targetSection) return;
+
+                e.preventDefault();
+
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+
+            });
+
+        });
+    </script>
+
 </body>
 </html>
