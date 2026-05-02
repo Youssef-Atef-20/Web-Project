@@ -24,7 +24,7 @@
             <ul class="nav-links">
                 <li><a href="index.php" class="active">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
-                <li>
+                <li class="has-dropdown">
                     <a href="rooms.php">Rooms <i class="fas fa-caret-down"></i></a>
                     <!-- CSS Dropdown Menu -->
                     <ul class="dropdown-menu">
@@ -36,12 +36,18 @@
                 <li><a href="facilities.php">Facilities</a></li>
                 <li><a href="contact.php">Contact / Book</a></li>
             </ul>
+            <!-- Hamburger Button -->
+            <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
-        <section class="hero" id="home" style="background: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
+        <section class="hero" id="home" style="background: url('images/hero-home.jpg') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1500">Experience True Luxury</h1>
                 <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">Discover the perfect escape at Ocean Pearl Hotel with breathtaking views, world-class amenities, and an unforgettable premium experience.</p>
@@ -65,7 +71,7 @@
                 <div data-aos="fade-left" data-aos-duration="1200">
                     <div style="position: relative; padding: 20px;">
                         <div style="position: absolute; top: 0; right: 0; width: 80%; height: 80%; border: 3px solid var(--secondary); border-radius: 12px; z-index: -1;" data-aos="zoom-in" data-aos-delay="400"></div>
-                        <img src="https://images.unsplash.com/photo-1542314831-c6a4d14db8ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ocean Pearl Hotel Exterior" style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+                        <img src="images/hotel-exterior.webp" alt="Ocean Pearl Hotel Exterior" style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
                     </div>
                 </div>
             </div>
@@ -78,7 +84,7 @@
                 <div class="grid-3">
                     <div class="card" data-aos="fade-up" data-aos-delay="100">
                         <div class="card-img">
-                            <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Deluxe Room">
+                            <img src="images/room-deluxe.webp" alt="Deluxe Room">
                         </div>
                         <div class="card-content">
                             <h3 class="card-title">Deluxe Room</h3>
@@ -91,7 +97,7 @@
                     
                     <div class="card" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-img">
-                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ocean Suite">
+                            <img src="images/room-suite.webp" alt="Ocean Suite">
                         </div>
                         <div class="card-content">
                             <h3 class="card-title">Ocean Suite</h3>
@@ -104,7 +110,7 @@
 
                     <div class="card" data-aos="fade-up" data-aos-delay="500">
                         <div class="card-img">
-                            <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Penthouse">
+                            <img src="images/room-penthouse.webp" alt="Penthouse">
                         </div>
                         <div class="card-content">
                             <h3 class="card-title">Penthouse</h3>

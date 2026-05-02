@@ -20,7 +20,7 @@
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php" class="active">About Us</a></li>
-                <li>
+                <li class="has-dropdown">
                     <a href="rooms.php">Rooms <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="rooms.php#deluxe">Deluxe Room</a></li>
@@ -31,12 +31,17 @@
                 <li><a href="facilities.php">Facilities</a></li>
                 <li><a href="contact.php">Contact / Book</a></li>
             </ul>
+            <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </header>
 
     <main>
         <!-- Hero Title Banner -->
-        <section class="hero inner-hero" style="background: url('https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
+        <section class="hero inner-hero" style="background: url('images/hero-about.jpg') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1200">About Us</h1>
                 <p data-aos="fade-up" data-aos-delay="300">Our story of luxury, passion, and unparalleled hospitality</p>
@@ -46,7 +51,7 @@
         <section class="container">
             <div class="grid-2">
                 <div data-aos="fade-right" data-aos-duration="1200">
-                    <img src="https://images.unsplash.com/photo-1551882547-ff40c0d12258?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hotel Interior" style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+                    <img src="images/hotel-interior.webp" alt="Hotel Interior" style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1200">
                     <h2 class="section-title" style="text-align: left; margin-bottom: 30px;">Our Heritage</h2>

@@ -20,7 +20,7 @@
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
-                <li>
+                <li class="has-dropdown">
                     <a href="rooms.php">Rooms <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="rooms.php#deluxe">Deluxe Room</a></li>
@@ -31,11 +31,16 @@
                 <li><a href="facilities.php">Facilities</a></li>
                 <li><a href="contact.php" class="active">Contact / Book</a></li>
             </ul>
+            <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </header>
 
     <main>
-        <section class="hero inner-hero" style="background: url('https://images.unsplash.com/photo-1522798514397-e0508e337190?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
+        <section class="hero inner-hero" style="background: url('images/hero-contact.jpg') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1200">Contact & Booking</h1>
                 <p data-aos="fade-up" data-aos-delay="300">Reserve your slice of paradise today</p>

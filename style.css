@@ -599,8 +599,124 @@ footer {
   .section-title { font-size: 3rem; }
 }
 
+/* ===== Hamburger Button ===== */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 5px;
+  z-index: 1100;
+  border-radius: 8px;
+  transition: var(--transition);
+}
+
+.hamburger:hover {
+  background: rgba(212, 175, 55, 0.1);
+}
+
+.hamburger span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: var(--white);
+  border-radius: 2px;
+  transition: var(--transition);
+  transform-origin: center;
+}
+
+/* Animate into X when open */
+.hamburger.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* ===== Responsive Layout ===== */
+@media (max-width: 1024px) {
+  .hero-content h1 { font-size: 4rem; }
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .section-title { font-size: 3rem; }
+}
+
 @media (max-width: 768px) {
-  .nav-links { display: none; } /* Add hamburger later if needed */
+  /* Show hamburger, hide desktop links */
+  .hamburger { display: flex; }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(10, 25, 47, 0.97);
+    backdrop-filter: blur(15px);
+    border-top: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    padding: 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  }
+
+  .nav-links.open {
+    max-height: 400px;
+    padding: 10px 0 20px;
+  }
+
+  .nav-links > li {
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .nav-links > li:last-child { border-bottom: none; }
+
+  .nav-links a {
+    padding: 14px 30px;
+    font-size: 1.1rem;
+  }
+
+  .nav-links a::after { display: none; }
+
+  /* Dropdown on mobile stays visible after click */
+  .dropdown-menu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    background: rgba(2, 12, 27, 0.5);
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    min-width: unset;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0;
+  }
+
+  .dropdown-menu.open {
+    max-height: 200px;
+  }
+
+  .dropdown-menu a {
+    padding: 10px 45px;
+  }
+
   .hero-content h1 { font-size: 3rem; }
   .grid-2, .grid-3, .footer-content { grid-template-columns: 1fr; }
   .room-row { padding: 20px; }

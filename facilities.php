@@ -20,7 +20,7 @@
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
-                <li>
+                <li class="has-dropdown">
                     <a href="rooms.php">Rooms <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="rooms.php#deluxe">Deluxe Room</a></li>
@@ -31,11 +31,16 @@
                 <li><a href="facilities.php" class="active">Facilities</a></li>
                 <li><a href="contact.php">Contact / Book</a></li>
             </ul>
+            <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </header>
 
     <main>
-        <section class="hero inner-hero" style="background: url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
+        <section class="hero inner-hero" style="background: url('images/hero-facilities.jpg') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1200">Our Facilities</h1>
                 <p data-aos="fade-up" data-aos-delay="300">Indulge in world-class amenities designed for your ultimate relaxation</p>
@@ -46,7 +51,7 @@
             <div class="grid-3">
                 <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
                     <div class="card-img">
-                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Spa and Wellness">
+                        <img src="images/facility-spa.webp" alt="Spa and Wellness">
                     </div>
                     <div class="card-content">
                         <h3 class="card-title">Serenity Spa</h3>
@@ -56,7 +61,7 @@
 
                 <div class="card" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300">
                     <div class="card-img">
-                        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Restaurant">
+                        <img src="images/facility-restaurant.webp" alt="Restaurant">
                     </div>
                     <div class="card-content">
                         <h3 class="card-title">The Pearl Restaurant</h3>
@@ -66,7 +71,7 @@
 
                 <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500">
                     <div class="card-img">
-                        <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Infinity Pool">
+                        <img src="images/facility-pool.webp" alt="Infinity Pool">
                     </div>
                     <div class="card-content">
                         <h3 class="card-title">Infinity Pool</h3>

@@ -20,7 +20,7 @@
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
-                <li>
+                <li class="has-dropdown">
                     <a href="rooms.php" class="active">Rooms <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="rooms.php#deluxe">Deluxe Room</a></li>
@@ -31,11 +31,16 @@
                 <li><a href="facilities.php">Facilities</a></li>
                 <li><a href="contact.php">Contact / Book</a></li>
             </ul>
+            <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </header>
 
     <main>
-        <section class="hero inner-hero" style="background: url('https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
+        <section class="hero inner-hero" style="background: url('images/hero-rooms.jpg') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1200">Rooms & Suites</h1>
                 <p data-aos="fade-up" data-aos-delay="300">Discover our luxurious, beautifully designed accommodations</p>
@@ -54,7 +59,7 @@
             <a name="deluxe"></a>
             <div id="deluxe" class="grid-2 room-row" data-aos="fade-up" data-aos-duration="1000">
                 <div data-aos="fade-right" data-aos-delay="200">
-                    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Deluxe Room">
+                    <img src="images/room-deluxe.webp" alt="Deluxe Room">
                 </div>
                 <div data-aos="fade-left" data-aos-delay="400">
                     <h2 style="font-size: 2.5rem; color: var(--white);">Deluxe Room</h2>
@@ -65,14 +70,14 @@
                         <li data-aos="fade-up" data-aos-delay="600"><i class="fas fa-tv"></i> 55" 4K Smart TV</li>
                         <li data-aos="fade-up" data-aos-delay="700"><i class="fas fa-coffee"></i> Premium Coffee Maker</li>
                     </ul>
-                    <a href="contact.php" class="btn btn-primary" data-aos="zoom-in" data-aos-delay="800">Book This Room</a>
+                    <a href="contact.php" class="btn btn-primary" data-aos="zoom-in" data-aos-delay="800">Book a Room</a>
                 </div>
             </div>
 
             <a name="suite"></a>
             <div id="suite" class="grid-2 room-row" data-aos="fade-up" data-aos-duration="1000" style="direction: rtl;">
                 <div data-aos="fade-left" data-aos-delay="200" style="direction: ltr;">
-                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ocean Suite">
+                    <img src="images/room-suite.webp" alt="Ocean Suite">
                 </div>
                 <div data-aos="fade-right" data-aos-delay="400" style="direction: ltr;">
                     <h2 style="font-size: 2.5rem; color: var(--white);">Ocean Suite</h2>
@@ -90,7 +95,7 @@
             <a name="penthouse"></a>
             <div id="penthouse" class="grid-2 room-row" data-aos="fade-up" data-aos-duration="1000">
                 <div data-aos="fade-right" data-aos-delay="200">
-                    <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Penthouse">
+                    <img src="images/room-penthouse.webp" alt="Penthouse">
                 </div>
                 <div data-aos="fade-left" data-aos-delay="400">
                     <h2 style="font-size: 2.5rem; color: var(--white);">The Penthouse</h2>
@@ -101,7 +106,7 @@
                         <li data-aos="fade-up" data-aos-delay="600"><i class="fas fa-user-tie"></i> Dedicated Personal Butler</li>
                         <li data-aos="fade-up" data-aos-delay="700"><i class="fas fa-car"></i> Complimentary Airport Transfer</li>
                     </ul>
-                    <a href="contact.php" class="btn btn-primary" data-aos="zoom-in" data-aos-delay="800">Book This Room</a>
+                    <a href="contact.php" class="btn btn-primary" data-aos="zoom-in" data-aos-delay="800">Book a Room</a>
                 </div>
             </div>
         </section>
