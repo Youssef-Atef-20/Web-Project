@@ -2,7 +2,7 @@
 $servername = "sql203.infinityfree.com";
 $username = "if0_41784483";
 $password = "Yousefatef1212";
-$dbname = "if0_41784483_travel";
+$dbname = "if0_41784483_hotel";
 
 // Try to connect, if db doesn't exist we catch the error in setup.php
 try {
