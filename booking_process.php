@@ -1,27 +1,60 @@
 <?php
+
 include 'db.php';
 
-$conn->select_db("ocean_pearl_db");
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $conn->real_escape_string($_POST['name']);
+    $full_name = $conn->real_escape_string($_POST['full_name']);
+
     $email = $conn->real_escape_string($_POST['email']);
-    $check_in = $conn->real_escape_string($_POST['check_in']);
-    $check_out = $conn->real_escape_string($_POST['check_out']);
-    $room_type = $conn->real_escape_string($_POST['room_type']);
-    $message = $conn->real_escape_string($_POST['message']);
 
-    $sql = "INSERT INTO bookings (name, email, check_in, check_out, room_type, message)
-    VALUES ('$name', '$email', '$check_in', '$check_out', '$room_type', '$message')";
+    $phone = $conn->real_escape_string($_POST['phone']);
+
+    $hotel_id = (int) $_POST['hotel_id'];
+
+    $room_id = (int) $_POST['room_id'];
+
+    $guests = (int) $_POST['guests'];
+
+    $check_in = $conn->real_escape_string($_POST['check_in']);
+
+    $check_out = $conn->real_escape_string($_POST['check_out']);
+
+    $sql = "
+        INSERT INTO bookings (
+            full_name,
+            email,
+            phone,
+            hotel_id,
+            room_id,
+            guests,
+            check_in,
+            check_out
+        )
+        VALUES (
+            '$full_name',
+            '$email',
+            '$phone',
+            '$hotel_id',
+            '$room_id',
+            '$guests',
+            '$check_in',
+            '$check_out'
+        )
+    ";
 
     if ($conn->query($sql) === TRUE) {
-        $success_msg = "Booking submitted successfully! We will contact you soon.";
-        // Redirect back with success message
+
         header("Location: contact.php?status=success");
+
+        exit();
+
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+
+        echo "Database Error: " . $conn->error;
+
     }
 
-    $conn->close();
 }
+
 ?>
