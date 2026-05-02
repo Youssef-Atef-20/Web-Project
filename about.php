@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="images/icon.svg">
 </head>
+
 <body>
     <header>
         <div class="date-container" id="current-date-display"></div>
@@ -44,25 +47,41 @@
         <section class="hero inner-hero" style="background: url('images/hero-about.webp') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1200">About Us</h1>
-                <p data-aos="fade-up" data-aos-delay="300">Our story of luxury, passion, and unparalleled hospitality</p>
+                <p data-aos="fade-up" data-aos-delay="300">Our story of luxury, passion, and unparalleled hospitality
+                </p>
             </div>
         </section>
 
         <section class="container">
             <div class="grid-2">
                 <div data-aos="fade-right" data-aos-duration="1200">
-                    <img src="images/hotel-interior.webp" alt="Hotel Interior" style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+                    <img src="images/hotel-interior.webp" alt="Hotel Interior"
+                        style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1200">
                     <h2 class="section-title" style="text-align: left; margin-bottom: 30px;">Our Heritage</h2>
-                    <p data-aos="fade-up" data-aos-delay="200">Founded in 1998, Ocean Pearl Hotel has been a beacon of luxury and relaxation for over two decades. What started as a small boutique hotel has blossomed into a world-class luxury resort, attracting guests from all over the globe.</p>
-                    <p data-aos="fade-up" data-aos-delay="300">We pride ourselves on providing an experience that goes beyond simply a place to stay. We offer a haven where guests can disconnect from the world, immerse themselves in luxury, and reconnect with nature.</p>
-                    
-                    <h3 style="margin-top: 40px; color: var(--secondary);" data-aos="fade-up" data-aos-delay="400">Our Core Values</h3>
+                    <p data-aos="fade-up" data-aos-delay="200">Founded in 1998, Ocean Pearl Hotel has been a beacon of
+                        luxury and relaxation for over two decades. What started as a small boutique hotel has blossomed
+                        into a world-class luxury resort, attracting guests from all over the globe.</p>
+                    <p data-aos="fade-up" data-aos-delay="300">We pride ourselves on providing an experience that goes
+                        beyond simply a place to stay. We offer a haven where guests can disconnect from the world,
+                        immerse themselves in luxury, and reconnect with nature.</p>
+
+                    <h3 style="margin-top: 40px; color: var(--secondary);" data-aos="fade-up" data-aos-delay="400">Our
+                        Core Values</h3>
                     <ul style="list-style-type: none; padding: 0;">
-                        <li data-aos="fade-up" data-aos-delay="500" style="margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; gap: 15px;"><i class="fas fa-gem" style="color: var(--secondary); font-size: 1.3rem;"></i> Uncompromising Quality</li>
-                        <li data-aos="fade-up" data-aos-delay="600" style="margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; gap: 15px;"><i class="fas fa-leaf" style="color: var(--secondary); font-size: 1.3rem;"></i> Sustainable Practices</li>
-                        <li data-aos="fade-up" data-aos-delay="700" style="margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; gap: 15px;"><i class="fas fa-heart" style="color: var(--secondary); font-size: 1.3rem;"></i> Exceptional Guest Service</li>
+                        <li data-aos="fade-up" data-aos-delay="500"
+                            style="margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; gap: 15px;">
+                            <i class="fas fa-gem" style="color: var(--secondary); font-size: 1.3rem;"></i>
+                            Uncompromising Quality</li>
+                        <li data-aos="fade-up" data-aos-delay="600"
+                            style="margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; gap: 15px;">
+                            <i class="fas fa-leaf" style="color: var(--secondary); font-size: 1.3rem;"></i> Sustainable
+                            Practices</li>
+                        <li data-aos="fade-up" data-aos-delay="700"
+                            style="margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; gap: 15px;">
+                            <i class="fas fa-heart" style="color: var(--secondary); font-size: 1.3rem;"></i> Exceptional
+                            Guest Service</li>
                     </ul>
                 </div>
             </div>
@@ -75,7 +94,8 @@
                 <div class="footer-logo">
                     <i class="fas fa-water"></i> Ocean<span>Pearl</span>
                 </div>
-                <p>Experience the perfect blend of luxury and comfort at our beachfront hotel. Your unforgettable journey into serenity and elegance starts right here.</p>
+                <p>Experience the perfect blend of luxury and comfort at our beachfront hotel. Your unforgettable
+                    journey into serenity and elegance starts right here.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
                 <h4 style="font-size: 1.5rem;">Quick Links</h4>
@@ -104,4 +124,5 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
