@@ -159,8 +159,8 @@
     </footer>
 
     <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Custom JS -->
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
 </html>
