@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ocean Pearl Hotel - Luxury accommodations and breathtaking ocean views.">
-    <title>Ocean Pearl Hotel | Home</title>
+    <title>Ocean Pearl Hotel</title>
     <!-- AOS Animation CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="images/icon.svg">
 </head>
+
 <body>
     <!-- Semantic Header & Nav -->
     <header>
@@ -50,7 +53,9 @@
         <section class="hero" id="home" style="background: url('images/hero-home.webp') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1500">Experience True Luxury</h1>
-                <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">Discover the perfect escape at Ocean Pearl Hotel with breathtaking views, world-class amenities, and an unforgettable premium experience.</p>
+                <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">Discover the perfect escape at Ocean
+                    Pearl Hotel with breathtaking views, world-class amenities, and an unforgettable premium experience.
+                </p>
                 <div data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
                     <a href="#welcome" class="btn btn-primary" style="margin-right: 15px;">Discover More</a>
                     <a href="contact.php" class="btn btn-outline">Book Now</a>
@@ -64,14 +69,20 @@
             <div class="grid-2">
                 <div data-aos="fade-right" data-aos-duration="1200">
                     <h3 style="font-size: 2.2rem; color: var(--secondary);">Your Perfect Coastal Getaway</h3>
-                    <p>Nestled on the pristine shores, the Ocean Pearl Hotel offers a sanctuary of peace and elegance. From the moment you arrive, you will be captivated by the panoramic ocean views, luxurious accommodations, and impeccable service.</p>
-                    <p>Whether you're seeking a romantic retreat, a family vacation, or a serene place to unwind, our hotel provides the ideal setting for unforgettable moments.</p>
-                    <a href="about.php" class="btn btn-outline" style="margin-top: 20px;" data-aos="flip-up" data-aos-delay="200">Read Our Story</a>
+                    <p>Nestled on the pristine shores, the Ocean Pearl Hotel offers a sanctuary of peace and elegance.
+                        From the moment you arrive, you will be captivated by the panoramic ocean views, luxurious
+                        accommodations, and impeccable service.</p>
+                    <p>Whether you're seeking a romantic retreat, a family vacation, or a serene place to unwind, our
+                        hotel provides the ideal setting for unforgettable moments.</p>
+                    <a href="about.php" class="btn btn-outline" style="margin-top: 20px;" data-aos="flip-up"
+                        data-aos-delay="200">Read Our Story</a>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1200">
                     <div style="position: relative; padding: 20px;">
-                        <div style="position: absolute; top: 0; right: 0; width: 80%; height: 80%; border: 3px solid var(--secondary); border-radius: 12px; z-index: -1;" data-aos="zoom-in" data-aos-delay="400"></div>
-                        <img src="images/hotel-exterior.webp" alt="Ocean Pearl Hotel Exterior" style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+                        <div style="position: absolute; top: 0; right: 0; width: 80%; height: 80%; border: 3px solid var(--secondary); border-radius: 12px; z-index: -1;"
+                            data-aos="zoom-in" data-aos-delay="400"></div>
+                        <img src="images/hotel-exterior.webp" alt="Ocean Pearl Hotel Exterior"
+                            style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
                     </div>
                 </div>
             </div>
@@ -88,13 +99,16 @@
                         </div>
                         <div class="card-content">
                             <h3 class="card-title">Deluxe Room</h3>
-                            <p>Comfortable and elegant with partial ocean views, modern amenities, and ultimate relaxation.</p>
+                            <p>Comfortable and elegant with partial ocean views, modern amenities, and ultimate
+                                relaxation.</p>
                             <div style="margin-top: 20px;">
-                                <a href="rooms.php#deluxe" style="color: var(--secondary); font-weight: 500; font-size: 1.1rem;">View Details <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
+                                <a href="rooms.php#deluxe"
+                                    style="color: var(--secondary); font-weight: 500; font-size: 1.1rem;">View Details
+                                    <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="card" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-img">
                             <img src="images/room-suite.webp" alt="Ocean Suite">
@@ -103,7 +117,9 @@
                             <h3 class="card-title">Ocean Suite</h3>
                             <p>Spacious living area with panoramic oceanfront views and an exclusive jacuzzi.</p>
                             <div style="margin-top: 20px;">
-                                <a href="rooms.php#suite" style="color: var(--secondary); font-weight: 500; font-size: 1.1rem;">View Details <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
+                                <a href="rooms.php#suite"
+                                    style="color: var(--secondary); font-weight: 500; font-size: 1.1rem;">View Details
+                                    <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -114,9 +130,12 @@
                         </div>
                         <div class="card-content">
                             <h3 class="card-title">Penthouse</h3>
-                            <p>The ultimate luxury experience with a private terrace, infinity pool, and personal butler.</p>
+                            <p>The ultimate luxury experience with a private terrace, infinity pool, and personal
+                                butler.</p>
                             <div style="margin-top: 20px;">
-                                <a href="rooms.php#penthouse" style="color: var(--secondary); font-weight: 500; font-size: 1.1rem;">View Details <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
+                                <a href="rooms.php#penthouse"
+                                    style="color: var(--secondary); font-weight: 500; font-size: 1.1rem;">View Details
+                                    <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -132,7 +151,8 @@
                 <div class="footer-logo">
                     <i class="fas fa-water"></i> Ocean<span>Pearl</span>
                 </div>
-                <p>Experience the perfect blend of luxury and comfort at our beachfront hotel. Your unforgettable journey into serenity and elegance starts right here.</p>
+                <p>Experience the perfect blend of luxury and comfort at our beachfront hotel. Your unforgettable
+                    journey into serenity and elegance starts right here.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
                 <h4 style="font-size: 1.5rem;">Quick Links</h4>
@@ -163,4 +183,5 @@
     <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
+
 </html>
