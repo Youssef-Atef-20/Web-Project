@@ -625,7 +625,7 @@ footer {
 
 /* ===== Hamburger Button ===== */
 .hamburger {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -642,7 +642,7 @@ footer {
 }
 
 .hamburger:hover {
-  background: rgba(212, 175, 55, 0.1);
+  background: #d4af371a;
 }
 
 .hamburger span {
