@@ -601,7 +601,7 @@ footer {
 
 /* ===== Hamburger Button ===== */
 .hamburger {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -652,7 +652,7 @@ footer {
 
 @media (max-width: 768px) {
   /* Show hamburger, hide desktop links */
-  .hamburger { display: flex; }
+  /* .hamburger { display: flex; } */
 
   .nav-links {
     display: flex;
