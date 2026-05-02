@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- Semantic Header & Nav -->
-    <header data-aos="fade-down" data-aos-duration="1000">
+    <header>
         <div class="date-container" id="current-date-display"></div>
         <nav aria-label="Main Navigation">
             <div class="logo">
