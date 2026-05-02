@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "ocean_pearl_db";
+$servername = "sql203.infinityfree.com";
+$username = "if0_41784483";
+$password = "Yousefatef1212";
+$dbname = "if0_41784483_travel";
 
 // Try to connect, if db doesn't exist we catch the error in setup.php
 try {
