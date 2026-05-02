@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--white);
   font-weight: 700;
   margin-bottom: 20px;
+  font-display: swap;
 }
 
 h1 {
@@ -72,12 +73,14 @@ h6 {
 p {
   margin-bottom: 20px;
   font-size: 1.1rem;
+  font-display: swap;
 }
 
 a {
   text-decoration: none;
   color: inherit;
   transition: var(--transition);
+  font-display: swap;
 }
 
 img {
