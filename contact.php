@@ -40,7 +40,7 @@
     </header>
 
     <main>
-        <section class="hero inner-hero" style="background: url('images/hero-contact.jpg') center/cover no-repeat;">
+        <section class="hero inner-hero" style="background: url('images/hero-contact.webp') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1200">Contact & Booking</h1>
                 <p data-aos="fade-up" data-aos-delay="300">Reserve your slice of paradise today</p>

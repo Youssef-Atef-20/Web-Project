@@ -40,7 +40,7 @@
     </header>
 
     <main>
-        <section class="hero inner-hero" style="background: url('images/hero-rooms.jpg') center/cover no-repeat;">
+        <section class="hero inner-hero" style="background: url('images/hero-rooms.webp') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1200">Rooms & Suites</h1>
                 <p data-aos="fade-up" data-aos-delay="300">Discover our luxurious, beautifully designed accommodations</p>

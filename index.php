@@ -47,7 +47,7 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="hero" id="home" style="background: url('images/hero-home.jpg') center/cover no-repeat;">
+        <section class="hero" id="home" style="background: url('images/hero-home.webp') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1500">Experience True Luxury</h1>
                 <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">Discover the perfect escape at Ocean Pearl Hotel with breathtaking views, world-class amenities, and an unforgettable premium experience.</p>

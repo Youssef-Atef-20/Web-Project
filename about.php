@@ -41,7 +41,7 @@
 
     <main>
         <!-- Hero Title Banner -->
-        <section class="hero inner-hero" style="background: url('images/hero-about.jpg') center/cover no-repeat;">
+        <section class="hero inner-hero" style="background: url('images/hero-about.webp') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1200">About Us</h1>
                 <p data-aos="fade-up" data-aos-delay="300">Our story of luxury, passion, and unparalleled hospitality</p>

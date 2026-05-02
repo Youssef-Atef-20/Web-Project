@@ -40,7 +40,7 @@
     </header>
 
     <main>
-        <section class="hero inner-hero" style="background: url('images/hero-facilities.jpg') center/cover no-repeat;">
+        <section class="hero inner-hero" style="background: url('images/hero-facilities.webp') center/cover no-repeat;">
             <div class="hero-content">
                 <h1 data-aos="zoom-in" data-aos-duration="1200">Our Facilities</h1>
                 <p data-aos="fade-up" data-aos-delay="300">Indulge in world-class amenities designed for your ultimate relaxation</p>
