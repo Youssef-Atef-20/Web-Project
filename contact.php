@@ -65,41 +65,205 @@
                     ?>
 
                     <form action="booking_process.php" method="POST">
-                        <div class="form-group" data-aos="fade-up" data-aos-delay="300">
-                            <label for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" class="form-control" required>
-                        </div>
-                        <div class="form-group" data-aos="fade-up" data-aos-delay="400">
-                            <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
-                        </div>
-                        <div class="grid-2" style="gap: 20px;">
-                            <div class="form-group" data-aos="fade-up" data-aos-delay="500">
-                                <label for="check_in">Check-in Date *</label>
-                                <input type="date" id="check_in" name="check_in" class="form-control" required>
-                            </div>
-                            <div class="form-group" data-aos="fade-up" data-aos-delay="600">
-                                <label for="check_out">Check-out Date *</label>
-                                <input type="date" id="check_out" name="check_out" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-group" data-aos="fade-up" data-aos-delay="700">
-                            <label for="room_type">Room Type *</label>
-                            <select id="room_type" name="room_type" class="form-control" required>
-                                <option value="" style="color: black;">Select a Room</option>
-                                <option value="Deluxe Room" style="color: black;">Deluxe Room</option>
-                                <option value="Ocean Suite" style="color: black;">Ocean Suite</option>
-                                <option value="Penthouse" style="color: black;">Penthouse</option>
-                            </select>
-                        </div>
-                        <div class="form-group" data-aos="fade-up" data-aos-delay="800">
-                            <label for="message">Special Requests</label>
-                            <textarea id="message" name="message" class="form-control" placeholder="Any special needs or celebrations?"></textarea>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="900">
-                            <button type="submit" class="btn btn-primary" style="width: 100%; border: none;">Submit Booking Request</button>
-                        </div>
-                    </form>
+
+    <!-- Full Name -->
+    <div class="form-group" data-aos="fade-up" data-aos-delay="300">
+
+        <label for="full_name">
+            Full Name *
+        </label>
+
+        <input
+            type="text"
+            id="full_name"
+            name="full_name"
+            class="form-control"
+            placeholder="Enter your full name"
+            required
+        >
+
+    </div>
+
+    <!-- Email -->
+    <div class="form-group" data-aos="fade-up" data-aos-delay="400">
+
+        <label for="email">
+            Email Address *
+        </label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            placeholder="Enter your email address"
+            required
+        >
+
+    </div>
+
+    <!-- Phone -->
+    <div class="form-group" data-aos="fade-up" data-aos-delay="500">
+
+        <label for="phone">
+            Phone Number *
+        </label>
+
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            class="form-control"
+            placeholder="Enter your phone number"
+            required
+        >
+
+    </div>
+
+    <!-- Dates -->
+    <div class="grid-2" style="gap: 20px;">
+
+        <!-- Check In -->
+        <div class="form-group" data-aos="fade-up" data-aos-delay="600">
+
+            <label for="check_in">
+                Check In Date *
+            </label>
+
+            <input
+                type="date"
+                id="check_in"
+                name="check_in"
+                class="form-control"
+                required
+            >
+
+        </div>
+
+        <!-- Check Out -->
+        <div class="form-group" data-aos="fade-up" data-aos-delay="700">
+
+            <label for="check_out">
+                Check Out Date *
+            </label>
+
+            <input
+                type="date"
+                id="check_out"
+                name="check_out"
+                class="form-control"
+                required
+            >
+
+        </div>
+
+    </div>
+
+    <!-- Hotel -->
+    <div class="form-group" data-aos="fade-up" data-aos-delay="800">
+
+        <label for="hotel_id">
+            Select Hotel *
+        </label>
+
+        <select
+            id="hotel_id"
+            name="hotel_id"
+            class="form-control"
+            required
+        >
+
+            <option value="" style="color: black;">
+                Select Hotel
+            </option>
+
+            <option value="1" style="color: black;">
+                Ocean Pearl Hotel
+            </option>
+
+            <option value="2" style="color: black;">
+                Royal Palm Resort
+            </option>
+
+            <option value="3" style="color: black;">
+                Sunset Paradise Hotel
+            </option>
+
+        </select>
+
+    </div>
+
+    <!-- Room -->
+    <div class="form-group" data-aos="fade-up" data-aos-delay="900">
+
+        <label for="room_id">
+            Select Room *
+        </label>
+
+        <select
+            id="room_id"
+            name="room_id"
+            class="form-control"
+            required
+        >
+
+            <option value="" style="color: black;">
+                Select Room
+            </option>
+
+            <option value="1" style="color: black;">
+                Deluxe Room
+            </option>
+
+            <option value="2" style="color: black;">
+                Family Suite
+            </option>
+
+            <option value="3" style="color: black;">
+                Luxury Suite
+            </option>
+
+            <option value="4" style="color: black;">
+                Beach View Room
+            </option>
+
+        </select>
+
+    </div>
+
+    <!-- Guests -->
+    <div class="form-group" data-aos="fade-up" data-aos-delay="1000">
+
+        <label for="guests">
+            Number Of Guests *
+        </label>
+
+        <input
+            type="number"
+            id="guests"
+            name="guests"
+            class="form-control"
+            placeholder="Number of guests"
+            min="1"
+            required
+        >
+
+    </div>
+
+    <!-- Submit -->
+    <div data-aos="fade-up" data-aos-delay="1100">
+
+        <button
+            type="submit"
+            class="btn btn-primary"
+            style="width: 100%; border: none;"
+        >
+            Submit Booking Request
+        </button>
+
+    </div>
+
+</form>
                 </div>
             </div>
         </section>
