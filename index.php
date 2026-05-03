@@ -2,17 +2,61 @@
 <html lang="en">
 
 <head>
+
+    <!-- Basic -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ocean Pearl Hotel - Luxury accommodations and breathtaking ocean views.">
-    <title>Ocean Pearl Hotel</title>
+
+    <!-- Title -->
+    <title>Ocean Pearl Hotel | Luxury Beach Resort & Premium Rooms</title>
+
+    <!-- SEO Meta -->
+    <meta name="description"
+        content="Experience luxury at Ocean Pearl Hotel with premium rooms, ocean views, elegant suites, and world class hospitality. Book your perfect stay today.">
+
+    <meta name="keywords"
+        content="Ocean Pearl Hotel, luxury hotel, beach resort, hotel booking, premium rooms, suites, ocean view hotel, vacation resort, hotel in Egypt">
+
+    <meta name="author" content="Ocean Pearl Hotel">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://allway.kesug.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Ocean Pearl Hotel | Luxury Beach Resort">
+    <meta property="og:description"
+        content="Luxury rooms, stunning ocean views, and unforgettable hospitality at Ocean Pearl Hotel.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://allway.kesug.com/">
+    <meta property="og:image" content="https://allway.kesug.com/images/icon.svg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ocean Pearl Hotel">
+    <meta name="twitter:description" content="Book luxury rooms and enjoy premium hospitality at Ocean Pearl Hotel.">
+    <meta name="twitter:image" content="https://allway.kesug.com/images/icon.svg">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0A192F">
+
+    <!-- Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- AOS Animation CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="images/icon.svg">
+
 </head>
 
 <body>
