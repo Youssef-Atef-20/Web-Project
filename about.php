@@ -56,7 +56,7 @@
             <div class="grid-2">
                 <div data-aos="fade-right" data-aos-duration="1200">
                     <img src="images/hotel-interior.webp" alt="Hotel Interior"
-                        style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+                        style="box-shadow: 0 20px 40px #00000080;">
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1200">
                     <h2 class="section-title" style="text-align: left; margin-bottom: 30px;">Our Heritage</h2>
