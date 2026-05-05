@@ -3,3 +3,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://allway.kesug.com/sitemap.xml
+
