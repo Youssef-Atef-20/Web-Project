@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact and book your stay at Ocean Pearl Hotel.">
-    <title>Ocean Pearl Hotel | Contact & Book</title>
+    <title>Ocean Pearl Hotel | Contact & Booking</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Book your stay at Ocean Pearl Hotel. Contact our 24/7 reservation team to secure premium rooms, ocean view suites, or inquire about custom holiday packages.">
+    <meta name="keywords" content="Ocean Pearl Hotel contact, book hotel room, reservations, hotel phone number, paradise city booking">
+    <meta name="author" content="Ocean Pearl Hotel">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://allway.kesug.com/contact.php">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Ocean Pearl Hotel | Contact & Booking">
+    <meta property="og:description" content="Book your stay at Ocean Pearl Hotel. Contact our 24/7 reservation team to secure premium rooms, ocean view suites, or inquire about custom holiday packages.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://allway.kesug.com/contact.php">
+    <meta property="og:image" content="https://allway.kesug.com/images/hotel-exterior.webp">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ocean Pearl Hotel | Contact & Booking">
+    <meta name="twitter:description" content="Book your stay at Ocean Pearl Hotel. Contact our 24/7 reservation team to secure premium rooms, ocean view suites, or inquire about custom holiday packages.">
+    <meta name="twitter:image" content="https://allway.kesug.com/images/hotel-exterior.webp">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0A192F">
+
+    <!-- Stylesheets & Fonts -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-     <link rel="icon" type="image/svg+xml" href="images/icon.svg">
+    <link rel="icon" type="image/svg+xml" href="images/icon.svg">
 </head>
 <body>
     <header>

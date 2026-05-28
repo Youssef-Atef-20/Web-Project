@@ -4,8 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rooms and Suites at Ocean Pearl Hotel.">
-    <title>Ocean Pearl Hotel | Rooms</title>
+    <title>Ocean Pearl Hotel | Rooms & Suites</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Explore luxury accommodations at Ocean Pearl Hotel. From elegant Deluxe Rooms and beachfront Ocean Suites to our exclusive rooftop Penthouse.">
+    <meta name="keywords" content="Ocean Pearl Hotel rooms, luxury hotel suites, deluxe room booking, penthouse pool, hotel rates">
+    <meta name="author" content="Ocean Pearl Hotel">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://allway.kesug.com/rooms.php">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Ocean Pearl Hotel | Luxury Rooms & Suites">
+    <meta property="og:description" content="Explore luxury accommodations at Ocean Pearl Hotel. From elegant Deluxe Rooms to our exclusive rooftop Penthouse.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://allway.kesug.com/rooms.php">
+    <meta property="og:image" content="https://allway.kesug.com/images/room-suite.webp">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ocean Pearl Hotel | Luxury Rooms & Suites">
+    <meta name="twitter:description" content="Explore luxury accommodations at Ocean Pearl Hotel. From elegant Deluxe Rooms to our exclusive rooftop Penthouse.">
+    <meta name="twitter:image" content="https://allway.kesug.com/images/room-suite.webp">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0A192F">
+
+    <!-- Stylesheets & Fonts -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">

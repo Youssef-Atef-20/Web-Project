@@ -4,8 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Ocean Pearl Hotel - Our story and values.">
     <title>Ocean Pearl Hotel | About Us</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Discover the rich heritage and values of Ocean Pearl Hotel. Learn about our passion for luxury hospitality, sustainable practices, and premium service.">
+    <meta name="keywords" content="Ocean Pearl Hotel about, hotel history, luxury hospitality values, beachfront hotel Egypt">
+    <meta name="author" content="Ocean Pearl Hotel">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://allway.kesug.com/about.php">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Ocean Pearl Hotel | About Us">
+    <meta property="og:description" content="Discover the rich heritage and values of Ocean Pearl Hotel. Learn about our passion for luxury hospitality and premium service.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://allway.kesug.com/about.php">
+    <meta property="og:image" content="https://allway.kesug.com/images/hotel-exterior.webp">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ocean Pearl Hotel | About Us">
+    <meta name="twitter:description" content="Discover the rich heritage and values of Ocean Pearl Hotel. Learn about our passion for luxury hospitality and premium service.">
+    <meta name="twitter:image" content="https://allway.kesug.com/images/hotel-exterior.webp">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0A192F">
+
+    <!-- Stylesheets & Fonts -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">

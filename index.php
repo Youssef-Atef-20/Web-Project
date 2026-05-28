@@ -12,7 +12,7 @@
 
     <!-- SEO Meta -->
     <meta name="description"
-        content="Experience luxury at Ocean Pearl Hotel with premium rooms, ocean views, elegant suites, and world class hospitality. Book your perfect stay today.">
+        content="Welcome to Ocean Pearl Hotel, a premier luxury beach resort. Book premium rooms, elegant oceanfront suites, and experience world-class 5-star hospitality.">
 
     <meta name="keywords"
         content="Ocean Pearl Hotel, luxury hotel, beach resort, hotel booking, premium rooms, suites, ocean view hotel, vacation resort, hotel in Egypt">
@@ -27,16 +27,16 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Ocean Pearl Hotel | Luxury Beach Resort">
     <meta property="og:description"
-        content="Luxury rooms, stunning ocean views, and unforgettable hospitality at Ocean Pearl Hotel.">
+        content="Welcome to Ocean Pearl Hotel, a premier luxury beach resort. Book premium rooms, elegant oceanfront suites, and experience world-class 5-star hospitality.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://allway.kesug.com/">
-    <meta property="og:image" content="https://allway.kesug.com/images/icon.svg">
+    <meta property="og:image" content="https://allway.kesug.com/images/hotel-exterior.webp">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ocean Pearl Hotel">
-    <meta name="twitter:description" content="Book luxury rooms and enjoy premium hospitality at Ocean Pearl Hotel.">
-    <meta name="twitter:image" content="https://allway.kesug.com/images/icon.svg">
+    <meta name="twitter:title" content="Ocean Pearl Hotel | Luxury Beach Resort">
+    <meta name="twitter:description" content="Welcome to Ocean Pearl Hotel, a premier luxury beach resort. Book premium rooms, elegant oceanfront suites, and experience world-class 5-star hospitality.">
+    <meta name="twitter:image" content="https://allway.kesug.com/images/hotel-exterior.webp">
 
     <!-- Theme -->
     <meta name="theme-color" content="#0A192F">
@@ -56,6 +56,53 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="images/icon.svg">
+
+    <!-- JSON-LD Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Ocean Pearl Hotel",
+      "description": "Experience luxury at Ocean Pearl Hotel with premium beachfront rooms, elegant suites, award-winning spa, and world-class dining.",
+      "image": "https://allway.kesug.com/images/hotel-exterior.webp",
+      "url": "https://allway.kesug.com/",
+      "telephone": "+1-555-123-4567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Ocean Drive",
+        "addressLocality": "Paradise City",
+        "postalCode": "90210",
+        "addressCountry": "US"
+      },
+      "starRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "priceRange": "$$$",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free Wi-Fi",
+          "value": "true"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Infinity Pool",
+          "value": "true"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Serenity Spa",
+          "value": "true"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "The Pearl Restaurant",
+          "value": "true"
+        }
+      ]
+    }
+    </script>
 
 </head>
 
